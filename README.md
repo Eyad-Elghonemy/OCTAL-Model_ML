@@ -168,8 +168,8 @@ Evaluated on `price_log` (RMSE/MAE are in log-price units):
 
 | Model | Split | RMSE ↓ | MAE ↓ | R² ↑ | Usage |
 |---|---|---|---|---|---|
-| Linear Regression | Train | 0.7005 | 0.5508 | 0.0009 | ✅ **Used for hosting/deployment** (small, fast to load) |
-| Linear Regression | Test | 0.7002 | 0.5502 | 0.0009 | ✅ **Used for hosting/deployment** (small, fast to load) |
+| Linear Regression | Train | 0.2040 | 0.1504 | 0.9162 | ✅ **Used for hosting/deployment** (small, fast to load) |
+| Linear Regression | Test | 0.2040 | 0.1502 | 0.9163 | ✅ **Used for hosting/deployment** (small, fast to load) |
 | Random Forest (base) | Train | 0.0886 | 0.0669 | 0.9840 | 🖥️ Used locally only (not deployed) |
 | Random Forest (base) | Test | 0.1160 | 0.0872 | 0.9726 | 🖥️ Used locally only (not deployed) |
 | **Random Forest (tuned)** | **Train** | **0.0565** | **0.0430** | **0.9935** | ❌ Not used at all |
